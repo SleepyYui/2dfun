@@ -182,6 +182,7 @@ _animationTree = NodePath("AnimationTree")
 texture = ExtResource("1_fslps")
 hframes = 4
 vframes = 4
+frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
