@@ -13,7 +13,7 @@ public partial class main_character : CharacterBody2D
 	// create function to set animation state
 	private void SetAnimationState(Vector2 move_input)
 	{
-		GD.Print(move_input.ToString());
+		//GD.Print(move_input.ToString());
 		if (move_input != Vector2.Zero)
 		{
 			_animationTree.Set("parameters/Idle/blend_position", move_input);
@@ -39,7 +39,7 @@ public partial class main_character : CharacterBody2D
 
 		SetAnimationState(_startingPosition);
 
-		GD.Print("main_character ready");
+		//GD.Print("main_character ready");
 	}
 
 	public override void _PhysicsProcess(double delta)
